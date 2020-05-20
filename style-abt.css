@@ -54,9 +54,7 @@ table {
   ========================================
 */
 
-h1, h2, h3, h4 {
-  color: #648880;
-}
+
 
 h1 {
   font-size: 36px;
@@ -74,7 +72,6 @@ h4 {
 }
 
 h5 {
-  color: #a9b2b9;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -94,7 +91,7 @@ cite, em {
 */
 
 a {
-  color: #648880;
+  color: black;
   text-decoration: none;
 }
 
@@ -108,12 +105,12 @@ p a {
 
 .primary-header a,
 .primary-footer a {
-  color: #fff;
+  
 }
 
 .primary-header a:hover,
 .primary-footer a:hover {
-  color: #648880;
+  color: purple;
 } 
 
 /*
@@ -366,6 +363,7 @@ h1, h3, h4, h5, p {
 
 .nav {
   text-align: right;
+  font-size: 20px;
 }
 
 .nav li {
