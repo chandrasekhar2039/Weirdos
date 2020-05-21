@@ -65,7 +65,7 @@ p a {
 .fprimary-footer {
   color: #648880;
   font-size: 20px;
-  padding-bottom: 44px;
+  padding-bottom: 0px;
   padding-top: 44px;
 }
 
@@ -77,11 +77,11 @@ p a {
 .fcontainer,
 .fgrid {
   margin: 0 auto;
-  width: 960px;
+  width: 100%;
 }
 .fcontainer {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .fgroup:before,
 .fgroup:after {
@@ -97,7 +97,7 @@ p a {
 }
 .frow,
 .frow-alt{
-  min-width: 1060px;
+  min-width: 100%;
 }
 .frow {
   background: #fff;
