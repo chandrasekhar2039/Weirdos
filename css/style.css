@@ -16,6 +16,7 @@
  	padding-top: 40px;
  	font-family: 'Varela Round', sans-serif;
  	transition: color 0.5s ease-in-out 0s;
+ 	transition: font-size 0.5s ease-in-out 0s;
  }
  ul{
  	list-style-type: none;
@@ -37,7 +38,7 @@
  	font-size: 20px;
  	text-decoration: none;
  	color: black;
- 	
+ 	transition: font-size 0.5s ease-in-out 0s;
  	transition: color 0.5s ease 0s;
 
  }
@@ -51,16 +52,18 @@
  	background: linear-gradient(to right,#606c88,#3f4c6b)
  }
  ul li a:hover{
- 	
+ 	font-size: 25px;
  	color: #3d293a;
  
  }
  .logo:hover{
  	color:#3d293a;
+ 	
  }
  .active{
- 	border-bottom: 2px solid #3d293a;
+ 	
  }
  header{
  	position: fixed;
  }
+ 
