@@ -20,6 +20,81 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  text-height: 20px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+  font-size: 30px;
+  border-top: 3px solid #3a3d29;
+  margin-right: 40px;
+  margin-left: 40px;
+  position: relative;
+  padding-top: 40px;
+  font-family: 'Varela Round', sans-serif;
+  transition: color 0.5s ease-in-out 0s;
+  transition: font-size 0.5s ease-in-out 0s;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+ }
+ ul{
+  list-style-type: none;
+  margin-top: 0px;
+  margin-right: 40px;
+  margin-left: 40px;
+  position: relative;
+  top: 50px;
+
+ }
+ ul li {
+  display: inline-block;
+  margin: 2px 10px ;
+  
+
+ }
+ ul li a{
+  font-weight: 900;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  transition: font-size 0.5s ease-in-out 0s;
+  transition: color 0.5s ease 0s;
+
+  font-family: 'Josefin Sans', sans-serif;
+
+ }
+ .cont{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100px;
+  background: linear-gradient(to right,#606c88,#3f4c6b)
+ }
+ ul li a:hover{
+  font-size: 25px;
+  color: #3d293a;
+ 
+ }
+ .logo:hover{
+  color:#3d293a;
+  font-size: 40px;
+  transform: rotateX(360deg);
+  
+ }
+ .active{
+  font-size:15px;
+ }
+ header{
+  position: fixed;
+ }
+ 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
