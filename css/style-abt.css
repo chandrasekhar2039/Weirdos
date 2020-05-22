@@ -75,7 +75,8 @@ time, mark, audio, video {
   justify-content: space-between;
   width: 100vw;
   height: 100px;
-  background: linear-gradient(to right,#606c88,#3f4c6b)
+  position: fixed;
+  background: linear-gradient(to right,#093028,#237A57);
  }
  ul li a:hover{
   font-size: 25px;
@@ -695,4 +696,15 @@ table h4 {
   =========================================
 */  
 
+/*
+  =========================================
+  Header
+  =========================================
+*/  
+
+/*
+  =========================================
+  Header
+  =========================================
+*/  
 
