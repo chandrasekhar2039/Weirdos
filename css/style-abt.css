@@ -59,7 +59,7 @@ time, mark, audio, video {
  }
  ul li a{
   font-weight: 900;
-  font-size: 20px;
+  font-size: 21px;
   text-decoration: none;
   color: black;
   transition: font-size 0.5s ease-in-out 0s;
@@ -85,7 +85,7 @@ time, mark, audio, video {
  }
  .logo:hover{
   color:#3d293a;
-  font-size: 40px;
+  font-size: 39px;
   transform: rotateX(360deg);
   
  }
